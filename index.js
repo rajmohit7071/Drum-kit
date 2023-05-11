@@ -12,7 +12,7 @@ document.addEventListener("keydown", function (event) {
 });
 function makeSound(p) {
     switch (p) {
-        case "q":
+        case "w":
             var tom1 = new Audio("sounds/tom-1.mp3");
             tom1.play();
             break;
